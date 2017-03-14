@@ -1,0 +1,20 @@
+name:               reflex-yesod-websockets-backend
+version:            0.0.0
+cabal-version:      >= 1.8
+build-type:         Simple
+
+executable          reflex-yesod-websockets-backend
+  main-is:          Main.hs
+
+  ghc-options:      -Wall -fwarn-tabs -O2
+
+  build-depends:  base
+                , yesod-core
+                , yesod-websockets
+                , bytestring
+                , text
+                , time
+                , transformers
+                , conduit
+
+  ghc-options:    -threaded -O2 -rtsopts -with-rtsopts=-N
