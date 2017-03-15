@@ -18,5 +18,9 @@ Then open the generated [index.html][index-link] in browser.
 
 Note that if you open [localhost:3000](http://localhost:3000) directly in browser then it will use the page from yesod instead, which essentially does the same work as reflex frontend.
 
+Yesod code has been taken from (https://github.com/yesodweb/yesod/blob/master/yesod-websockets/sample.hs)
+
+Reflex code from (https://github.com/reflex-frp/reflex-examples/blob/master/websocket-echo/src/Main.hs)
+
 [reflex-link]: https://github.com/reflex-frp/reflex-platform
 [index-link]: frontend/dist/build/reflex-yesod-websockets-frontend/reflex-yesod-websockets-frontend.jsexe/index.html
