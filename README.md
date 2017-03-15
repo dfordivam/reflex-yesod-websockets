@@ -16,5 +16,7 @@ cd frontend; cabal configure --ghcjs && cabal build
 
 Then open the generated [index.html][index-link] in browser.
 
+Note that if you open [localhost:3000](http://localhost:3000) directly in browser then it will use the page from yesod instead, which essentially does the same work as reflex frontend.
+
 [reflex-link]: https://github.com/reflex-frp/reflex-platform
 [index-link]: frontend/dist/build/reflex-yesod-websockets-frontend/reflex-yesod-websockets-frontend.jsexe/index.html
