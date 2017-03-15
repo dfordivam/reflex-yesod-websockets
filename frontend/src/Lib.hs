@@ -25,7 +25,7 @@ header :: MonadWidget t m => m ()
 header = do
   el "p" $ do
     text "Start the yesod webserver and use this page to"
-    text "send a message to the yesod server hosted on localhost:3000"
+    text " send a message to the yesod server hosted on localhost:3000"
 
 footer :: MonadWidget t m => m ()
 footer = do
