@@ -43,6 +43,9 @@ getHomeR = do
                 conn.onmessage = function(e) {
                     document.write("<p>" + e.data + "</p>");
                 };
+                conn.onclose = function () {
+                    document.write("<p>Connection Closed</p>");
+                };
             |]
 
 main :: IO ()
